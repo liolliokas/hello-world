@@ -55,28 +55,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container">
   <div class="row">
     <div class="col">
-      1 of 2
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
     </div>
     <div class="col">
-      2 of 2
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
     </div>
   </div>
   <div class="row">
     <div class="col">
-      1 of 3
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
     </div>
     <div class="col">
-      2 of 3
+      <form action="https://formspree.io/liolliokas@gmail.com"
+      method="POST">
+    <label for="month">Name:</label>        
+    <input type="text" name="name">
+    <label for="month">Email:</label>      
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+    </form> 
     </div>
     <div class="col">
       3 of 3
     </div>
   </div>
   </div>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -107,12 +110,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
         
-    <form action="https://formspree.io/liolliokas@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-    </form> 
       </section>
       <footer>
         {% if site.github.is_project_page %}
