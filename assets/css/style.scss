@@ -8,6 +8,9 @@
   margin: 0 auto;
 }
 
-pre {
+code, pre {
+  margin-bottom: 30px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  font-size: 14px;
   color: #f8f8f8;
 }
