@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.inner {
+  width: auto;
+  margin: 0 auto;
+}
